@@ -29,9 +29,9 @@ ALLOWED_HOSTS = ['d32f7036-b567-478e-8a29-2bae25d88012.id.repl.co',
                  'journal.aanand.blog',
                  'trackerjournal-1.pradnyanandjadh.repl.co',]
 
-CSRF_TRUSTED_ORIGINS=['https://*.d32f7036-b567-478e-8a29-2bae25d88012.id.repl.co',
-                        'https://*.journal.aanand.blog',
-                        'https://*.trackerjournal-1.pradnyanandjadh.repl.co',
+CSRF_TRUSTED_ORIGINS=['https://d32f7036-b567-478e-8a29-2bae25d88012.id.repl.co',
+                        'https://journal.aanand.blog',
+                        'https://trackerjournal-1.pradnyanandjadh.repl.co',
                       ]
 # Application definition
 
