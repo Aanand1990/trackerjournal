@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-j2pucrse+qr31ax^dkn8%ak&g)gigo96uxwyhvzdf51jfbr+!b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['d32f7036-b567-478e-8a29-2bae25d88012.id.repl.co',
+ALLOWED_HOSTS = ['127.0.0.1',
+                 'd32f7036-b567-478e-8a29-2bae25d88012.id.repl.co',
                  'journal.aanand.blog',
                  'trackerjournal-1.pradnyanandjadh.repl.co',]
 
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'journal',
     'tracker',
+    'EODChecklist',
 ]
 
 MIDDLEWARE = [
